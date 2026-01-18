@@ -11,37 +11,61 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 
 ![image](https://github.com/digitalinnovationone/lab-aws-sagemaker-canvas-estoque/assets/730492/72f5c21f-5562-491e-aa42-2885a3184650)
 
-- Dê um fork neste projeto e reescreva este `README.md`. Sinta-se à vontade para detalhar todo o processo de criação do seu Modelo de ML para uma "Previsão de Estoque Inteligente".
-- Para isso, siga o [passo a passo] descrito a seguir e evolua as suas habilidades em ML no-code com o Amazon SageMaker Canvas.
-- Ao concluir, envie a URL do seu repositório com a solução na plataforma da DIO.
+## 🧠 Sobre a Minha Implementação do Projeto
 
+Neste projeto, realizei a simulação completa do processo de criação de um modelo de **Previsão de Estoque Inteligente**, seguindo a metodologia proposta no desafio da DIO com o **Amazon SageMaker Canvas**.
 
-## 🚀 Passo a Passo
+O objetivo foi compreender, de forma prática e conceitual, como funciona o fluxo de um projeto de Machine Learning no-code, desde a escolha do dataset até a análise dos resultados, documentando cada etapa de forma clara e organizada para fins de aprendizado e portfólio.
 
-### 1. Selecionar Dataset
+Embora o SageMaker Canvas seja uma ferramenta gerenciada na AWS, este projeto tem foco **educacional**, priorizando o entendimento do processo, das decisões envolvidas e da interpretação dos resultados.
 
--   Navegue até a pasta `datasets` deste repositório. Esta pasta contém os datasets que você poderá escolher para treinar e testar seu modelo de ML. Sinta-se à vontade para gerar/enriquecer seus próprios datasets, quanto mais você se engajar, mais relevante esse projeto será em seu portfólio.
--   Escolha o dataset que você usará para treinar seu modelo de previsão de estoque.
--   Faça o upload do dataset no SageMaker Canvas.
+---
 
-### 2. Construir/Treinar
+## 📊 Etapas do Projeto
 
--   No SageMaker Canvas, importe o dataset que você selecionou.
--   Configure as variáveis de entrada e saída de acordo com os dados.
--   Inicie o treinamento do modelo. Isso pode levar algum tempo, dependendo do tamanho do dataset.
+### 1️⃣ Seleção do Dataset
 
-### 3. Analisar
+O primeiro passo foi a análise dos datasets disponíveis no repositório base do projeto. A partir disso, foi escolhido um conjunto de dados adequado para o problema de previsão de estoque, considerando variáveis relevantes como histórico de vendas, volume e comportamento de consumo.
 
--   Após o treinamento, examine as métricas de performance do modelo.
--   Verifique as principais características que influenciam as previsões.
--   Faça ajustes no modelo se necessário e re-treine até obter um desempenho satisfatório.
+O dataset selecionado foi preparado para ser utilizado em um modelo de Machine Learning voltado à previsão de demanda.
 
-### 4. Prever
+---
 
--   Use o modelo treinado para fazer previsões de estoque.
--   Exporte os resultados e analise as previsões geradas.
--   Documente suas conclusões e qualquer insight obtido a partir das previsões.
+### 2️⃣ Construção e Treinamento do Modelo
 
-## 🤔 Dúvidas?
+Com o dataset definido, o modelo de Machine Learning foi concebido seguindo a lógica do **SageMaker Canvas**, onde são configuradas as variáveis de entrada (features) e a variável de saída (target).
 
-Esperamos que esta experiência tenha sido enriquecedora e que você tenha aprendido mais sobre Machine Learning aplicado a problemas reais. Se tiver alguma dúvida, não hesite em abrir uma issue neste repositório ou entrar em contato com a equipe da DIO.
+Nesta etapa, foi considerado o processo de treinamento automático do modelo, no qual a ferramenta avalia diferentes abordagens para encontrar o melhor desempenho possível, sem necessidade de programação.
+
+---
+
+### 3️⃣ Análise dos Resultados
+
+Após o treinamento, o modelo é analisado com base em métricas de performance, permitindo entender o nível de precisão das previsões.
+
+Também são avaliadas as principais variáveis que impactam os resultados, possibilitando uma visão mais clara de como os dados influenciam o comportamento do estoque e auxiliam na tomada de decisão.
+
+---
+
+### 4️⃣ Previsão de Estoque e Insights
+
+Com o modelo treinado, são realizadas previsões de estoque, simulando cenários futuros de demanda.
+
+A partir dessas previsões, é possível extrair insights importantes, como padrões de consumo, possíveis riscos de ruptura de estoque e oportunidades de otimização no planejamento logístico.
+
+---
+
+## 🧩 Conclusão
+
+Este projeto permitiu consolidar conceitos fundamentais de Machine Learning aplicados a negócios, demonstrando como soluções no-code, como o Amazon SageMaker Canvas, podem ser utilizadas para resolver problemas reais de forma acessível.
+
+A experiência reforçou a importância da análise de dados, da interpretação de métricas e da documentação clara do processo, tornando este projeto uma peça relevante para meu portfólio profissional.
+
+---
+
+## 🚀 Aprendizados Adquiridos
+
+- Compreensão do fluxo completo de um projeto de ML no-code  
+- Importância da escolha e preparação do dataset  
+- Interpretação de métricas de desempenho de modelos preditivos  
+- Aplicação de Machine Learning em cenários reais de negócio  
